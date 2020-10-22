@@ -4,6 +4,8 @@ import React from "react";
 import MyNavbar from "./components/my-navbar/mynavbar.component";
 import MyCarousel from "./components/my-carousel/my-carousel.component";
 import TitleMessage from "./components/title-message/title-message.component";
+import Projects from "./components/projects-timeline/projects-timeline-component";
+
 // pages
 import About from "./pages/about/about.component";
 import Skills from "./pages/skills/skills.component";
@@ -51,6 +53,13 @@ const App = () => {
         <Container className="container-box rounded">
           <Fade duration={500}>
             <Experience />
+          </Fade>
+        </Container>
+      </div>
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <Projects />
           </Fade>
         </Container>
       </div>
