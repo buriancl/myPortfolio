@@ -7,6 +7,7 @@ import TitleMessage from "./components/title-message/title-message.component";
 // pages
 import About from "./pages/about/about.component";
 import Skills from "./pages/skills/skills.component";
+import Experience from "./pages/experience/experience.component";
 
 import { Parallax } from "react-parallax";
 import Fade from "react-reveal/Fade";
@@ -42,6 +43,14 @@ const App = () => {
         <Container className="container-box rounded">
           <Fade duration={500}>
             <Skills />
+          </Fade>
+        </Container>
+      </div>
+      {/* Experience */}
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <Experience />
           </Fade>
         </Container>
       </div>
